@@ -5,7 +5,7 @@ html{box-sizing:border-box
 
 
 
-.image-1, .image-2, .image-3{
+.image-1, .image-3{
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -18,13 +18,8 @@ html{box-sizing:border-box
 
 
 .image-1{
-  background-image:url('../img/image1.jpg');
+  background-image:url('/img/image1.jpg');
   min-height:100%;
-}
-
-.image-2{
-  background-image:url('../img/image2.jpg');
-  min-height:960px;
 }
 
 .image-3{
